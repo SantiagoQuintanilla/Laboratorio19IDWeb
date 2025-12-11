@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 11</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Buscar Stats de un Pokémon</h1>
+    <input type="text" id="inputPokemon" placeholder="Escribe nombre o ID">
+    <button onclick="buscarPokemon()">Buscar</button>
+    <div id="card">
+        <img id="pokeImg" src="" alt="">
+        <h2 id="pokeName"></h2>
+        <table id="statsTable">
+            <thead>
+                <tr>
+                    <th>Stat</th>
+                    <th>Valor</th>
+                </tr>
+            </thead>
+            <tbody id="statsBody"></tbody>
+        </table>
+    </div>
+
+    <script src="Ejercicio11.js"></script>
+</body>
+</html>
